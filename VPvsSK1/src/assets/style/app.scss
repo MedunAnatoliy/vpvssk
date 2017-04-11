@@ -1,0 +1,22 @@
+//
+// Main SCSS file. Imports all style's in one file.
+//
+
+@import "../../../bower_components/normalize.css/normalize";
+@import "../../../bower_components/fullpage.js/dist/jquery.fullpage";
+
+// Load var's
+@import "partials/vars";
+
+//Load Bootstrap
+@import "plugins/_bootstrap";
+
+//Load Utilities
+@import "plugins/_utilities";
+
+// Lightgallery
+@import "plugins/_lightgallery";
+
+// Custom code
+@import "partials/main";
+
